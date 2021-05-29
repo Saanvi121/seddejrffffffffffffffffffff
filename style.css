@@ -1,0 +1,31 @@
+#header
+{
+    width: 300px;
+    height: 50px;
+    font-size:x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#take_snapshot
+{
+    width: 200px;
+    height: 35px;
+}
+
+#take_snapshot:hover
+{
+background-color: purple;
+}
+
+canvas
+{
+    animation-name: blablablacksheep;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blablablacksheep
+{
+    from {box-shadow: 1px 1px 45px red;}
+    to {box-shadow: 1px 1px 45px violet;}
+}
